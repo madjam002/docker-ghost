@@ -15,16 +15,16 @@ This repository contains **Dockerfile** of [Ghost](https://www.ghost.org/) for [
 
 2. Download [trusted build](https://index.docker.io/u/dockerfile/ghost/) from public [Docker Registry](https://index.docker.io/): `docker pull dockerfile/ghost`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="madjam002/ghost" github.com/madjam002/ghost`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="madjam002/ghost" github.com/madjam002/docker-ghost`)
 
 
 ### Usage
 
-    docker run -d -p 80:2368 dockerfile/ghost
+    docker run -d -p 80:2368 madjam002/ghost
 
 #### Customizing Ghost
 
-    docker run -d -p 80:2368 -v <override-dir>:/ghost-override dockerfile/ghost
+    docker run -d -p 80:2368 -v <override-dir>:/ghost-override madjam002/ghost
 
 where `<override-dir>` is an absolute path of a directory that could contain:
 
