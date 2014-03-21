@@ -15,7 +15,7 @@ This repository contains **Dockerfile** of [Ghost](https://www.ghost.org/) for [
 
 2. Download [trusted build](https://index.docker.io/u/dockerfile/ghost/) from public [Docker Registry](https://index.docker.io/): `docker pull dockerfile/ghost`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/ghost" github.com/dockerfile/ghost`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="madjam002/ghost" github.com/madjam002/ghost`)
 
 
 ### Usage
