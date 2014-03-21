@@ -5,7 +5,8 @@
 #
 
 GHOST="/ghost"
-CONTENT="/ghost-content"
+OVERRIDE="/ghost-override"
+CONTENT="$OVERRIDE/content"
 
 CONFIG="config.js"
 
